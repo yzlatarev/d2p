@@ -1,17 +1,7 @@
-// Top-level build file
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.0.0'
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+cd /path/to/CoinClone_FullProject
+git init
+git remote add origin https://github.com/yzlatarev/d2p.git
+git add .
+git commit -m "Initial CoinClone FullProject"
+git branch -M main
+git push -u origin main
